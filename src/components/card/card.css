@@ -1,0 +1,22 @@
+.card-container {
+    background-color: rgb(246, 197, 224);
+    margin: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(115, 7, 83, 0.1);
+}
+
+.card-container img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.close-button {
+    background-color: rgb(243, 56, 152);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}

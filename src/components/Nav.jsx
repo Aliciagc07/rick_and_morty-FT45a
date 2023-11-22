@@ -1,11 +1,11 @@
-import React from 'react';
-import SearchBar from './SearchBar';
+
+import SearchBar from './searchbar/SearchBar';
 
 export default function
-    Nav() {
+    Nav(props) {
     return (
         <div>
-            <SearchBar onSearch={(characterID) => window.alert(characterID)} />
+            <SearchBar onSearch={props.onSearch} />
         </div>
     )
-}
+};
