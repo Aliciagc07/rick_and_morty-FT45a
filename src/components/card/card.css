@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Quattrocento+Sans&family=Yeseva+One&display=swap');
+
 .card-container {
-    background-color: rgb(246, 197, 224);
+    background-color: rgb(243, 240, 58);
+    margin: 0;
+    padding: 0;
     margin: 15px;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0 0 10px rgba(115, 7, 83, 0.1);
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.3);
+    color: black;
+    font-size: 15px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    ;
 }
 
 .card-container img {
@@ -12,11 +20,24 @@
 }
 
 .close-button {
-    background-color: rgb(243, 56, 152);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border: none;
     padding: 8px 16px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 4px;
+}
+
+
+.card-container button:hover {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    color: rgb(243, 240, 58);
+}
+
+.card-container .nombre {
+    font-family: 'Yeseva One', serif;
+    font-size: 30px;
+
 }
